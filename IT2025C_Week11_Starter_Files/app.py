@@ -310,7 +310,6 @@ LANDING_PAGE = """<!doctype html>
     </main>
     <footer class="landing-footer">
       <p class="note"><strong>Privacy &amp; Limits:</strong> Please do not upload any personal or sensitive information. These include real names, email addresses, phone numbers, and other identifying details. Files and questions go to GPT-5.4 through BearcatGPT. Answers can be wrong, so always double-check important information.</p>
-      <a class="button" href="/start">Start learning</a>
     </footer>
   </body>
 </html>"""
@@ -338,7 +337,7 @@ INDEX_PAGE = """<!doctype html>
       <textarea id="prompt" name="prompt" rows="3"></textarea>
       <button type="submit">Ask</button>
     </form>
-    <p class="note"><strong>Privacy &amp; Limits:</strong> Please do not upload any personal or sensitive information. These include real names, email addresses, phone numbers, and other identifying details. Files and questions go to GPT-5.4 through BearcatGPT. Answers can be wrong, so always double-check important information.</p>
+    <p class="note">Use fictional or public files only.</p>
   </body>
 </html>"""
 
